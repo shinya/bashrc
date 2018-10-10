@@ -1,0 +1,24 @@
+select-pane -t 0
+split-window -v
+select-pane -t 0
+split-window -v
+
+select-pane -t 0
+split-window -h
+select-pane -t 2
+split-window -h
+
+select-pane -t 4
+split-window -v
+select-pane -t 4
+split-window -h
+
+select-pane -t 6
+split-window -h
+
+select-pane -t 7
+split-window -v
+clock-mode
+
+
+select-pane -t 0
